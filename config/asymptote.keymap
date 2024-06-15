@@ -22,7 +22,7 @@
             bindings = <
 &kp ESC    &kp Q  &kp W  &kp E      &kp R     &kp T        &kp Y          &kp U          &kp I      &kp O    &kp P          &kp BSPC
 &lt 2 TAB  &kp A  &kp S  &kp D      &kp F     &kp G        &kp H          &kp J          &kp K      &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
-&kp LSHFT  &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N          &kp M          &kp COMMA  &kp DOT  &kp QUESTION   &mo 1
+&kp LSHFT  &kp Z  &kp X  &kp C      &kp V     &kp B        &kp N          &kp M          &kp COMMA  &kp DOT  &kp QUESTION   &mo 2
                          &kp LCTRL  &kp LGUI  &kp SPACE    &kp BACKSPACE  &kp RIGHT_ALT  &kp ENTER
             >;
         };
@@ -32,7 +32,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4       &kp N5  &kp NUMBER_6    &kp N7  &kp N8  &kp N9            &kp N0  &kp MINUS  &kp EQUAL
 &kp CAPSLOCK  &trans        &trans        &trans             &trans  &trans          &trans  &trans  &trans            &trans  &trans     &trans
 &trans        &trans        &trans        &trans             &trans  &trans          &trans  &trans  &trans            &trans  &trans     &trans
-                                          &ext_power EP_OFF  &trans  &trans          &trans  &trans  &ext_power EP_ON
+                                          &ext_power EP_OFF  &trans  &trans          &trans  &mo 3   &ext_power EP_ON
             >;
         };
 
